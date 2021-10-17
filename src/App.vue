@@ -37,10 +37,13 @@ body {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
-  &::webkit-scrollbar {
-    display: none;
-    width: 0;
-    height: 0;
-  }
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+canvas {
+  display: block;
 }
 </style>

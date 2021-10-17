@@ -42,6 +42,7 @@ export default {
 <style lang="scss" scoped>
 .default-layout {
   height: 100%;
+  overflow-x: hidden;
 }
 .fade-enter-active,
 .fade-leave-active {
