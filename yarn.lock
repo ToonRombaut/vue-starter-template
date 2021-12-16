@@ -1445,6 +1445,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dat.gui@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "dat.gui@npm:0.7.7"
+  checksum: 0686df06c8cdb0ecb8d78653cbbce83081bfc19f833d659f2a64b6d9422fa3d9d35f05f5ea69adc269e723fce3449e4c0ced6f70da8e30e25bcb33c1e7cfd898
+  languageName: node
+  linkType: hard
+
 "de-indent@npm:^1.0.2":
   version: 1.0.2
   resolution: "de-indent@npm:1.0.2"
@@ -1849,6 +1856,13 @@ fsevents@~2.3.2:
   version: 4.2.8
   resolution: "graceful-fs@npm:4.2.8"
   checksum: 5d224c8969ad0581d551dfabdb06882706b31af2561bd5e2034b4097e67cc27d05232849b8643866585fd0a41c7af152950f8776f4dd5579e9853733f31461c6
+  languageName: node
+  linkType: hard
+
+"gsap@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "gsap@npm:3.9.0"
+  checksum: 6a5ea2820f6f2dce4e780fa8f08214d4ae7d0027128ab2198cf74990572bcecb219ef491eb247da1acc3d4b98970ebd2b7c3cfa9c82971cd0724b6da5e200a97
   languageName: node
   linkType: hard
 
@@ -3117,6 +3131,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "vue2-vite@workspace:."
   dependencies:
+    dat.gui: ^0.7.7
+    gsap: ^3.9.0
     sass: ^1.42.1
     three: ^0.133.1
     three-orbit-controls: ^82.1.0
