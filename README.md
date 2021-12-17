@@ -33,6 +33,8 @@
 
 ## Setup
 
+**Don't forget to include all branches when using this template!**
+
 ```bash
   yarn set version stable # use latest yarn version
   yarn # install dependencies
