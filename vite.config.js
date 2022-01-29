@@ -10,9 +10,7 @@ module.exports = {
         preprocessorOptions: {
             scss: {
                 additionalData: `
-             @import "./src/assets/scss/_vars";
-             @import "./src/assets/scss/_mixins";
-             @import "./src/assets/scss/_text";
+             @import "./src/assets/scss/main";
              `
             },
         },

@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@ashthornton/asscroll@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@ashthornton/asscroll/-/asscroll-2.0.4.tgz#fae0db00c69903aa50a0ef1cb52ccefbb248c02c"
+  integrity sha512-qo44dItBSq6+iYPh0qcekH6aFUoaelUDDxv7Qbq8viFuZpCM2yndIPRy2sFxOmqwe84+7ag/ATJUZ/mFSgnxpQ==
+  dependencies:
+    "@unseenco/e" "^1.8.2"
+
 "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.15.8":
   version "7.15.8"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.15.8.tgz#45990c47adadb00c03677baa89221f7cc23d2503"
@@ -279,6 +286,13 @@
   dependencies:
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
+
+"@unseenco/e@^1.8.2":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@unseenco/e/-/e-1.10.1.tgz#8bcef4e72e51ca8901cf6b48b3e8575ccc74c967"
+  integrity sha512-ydu7mdmDG4aHuI9HpWPa6MV61h5c7RoSAPp4FCUKCgK2YvwWr0BTpEnFmrhUgz8yJ22UMSAfI3qOxoQlv1TnWg==
+  dependencies:
+    selector-set "^1.1.5"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -1321,6 +1335,11 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-web@^5.1.9:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.8.1.tgz#807e0af0ad22b59bf867d964eb684cb3368da0ef"
+  integrity sha512-9gIizWADlaHC2GCt+D+yNpk5l2clZQFqnVWWIVdY0LnxC/uLa39dYltAe3fcmC/hrZ2IUQ8dLlY0O934Npjs7Q==
+
 lru-cache@^4.1.2:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -1517,6 +1536,11 @@ sass@^1.42.1:
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
+selector-set@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/selector-set/-/selector-set-1.1.5.tgz#60c135aea482b6f46a2d95ad72058927690a8634"
+  integrity sha512-6SQw6yMew5iOZ8/cDHDEnJWRM4ot2mxP6szZyF5ptrBogw4AcS4EXRj/8BUfgAMwVfdL84qpModlBMOl2NVrsQ==
+
 semver@^5.3.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
@@ -1580,6 +1604,11 @@ svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
+
+three@^0.136.0:
+  version "0.136.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.136.0.tgz#b1504db021b46398ef468aa7849f3dcabb814f50"
+  integrity sha512-+fEMX7nYLz2ZesVP/dyifli5Jf8gR3XPAnFJveQ80aMhibFduzrADnjMbARXh8+W9qLK7rshJCjAIL/6cDxC+A==
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
@@ -1656,6 +1685,13 @@ vite@^2.0.5, vite@^2.5.8:
     rollup "^2.57.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-lottie@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vue-lottie/-/vue-lottie-0.2.1.tgz#f9f62c34a276e6834255406118fb05b51f765e4b"
+  integrity sha512-zInUX69Ij8MhVR3XArpu4PqqBoufwKxS5UMutWCPm59VUaB5H6GtnaIzf9M+l6aYU+Kr8gF/W9dzWLgRuU6V+Q==
+  dependencies:
+    lottie-web "^5.1.9"
 
 vue-router@^3.5.2:
   version "3.5.2"
